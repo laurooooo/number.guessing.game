@@ -22,7 +22,6 @@ while(continue_game):
 
 print('Game over!')
 
-#UZDEVUMS: aprēķināt vidējo starpību starp user_guesses un computer_number
 sum_of_differences = 0
 for n in user_guesses:
     sum_of_differences += abs(n - computer_number)
